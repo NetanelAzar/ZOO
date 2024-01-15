@@ -77,6 +77,13 @@ namespace ZOO
 
 
 
+
+		public virtual Eat()///כדי שהיורשים יוכלו לבצע OVERRIDE ולדרוס אותה
+		{
+			return this.caloriesPerMeal * 3;
+		}
+
+
 	 public override string ToString()
 	 {
 			return "name=" + this.name + " age=" + this.age + " is super predator:" + this.isSuperPredator + " calories per meal:" + this.caloriesPerMeal;

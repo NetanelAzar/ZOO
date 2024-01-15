@@ -46,6 +46,12 @@ namespace ZOO
 
 
 
+		public override Eat()
+		{
+			return this.caloriesPerMeal * 2;
+		}
+
+
 		public override string ToSrtring()
 		{
 			return base.ToSrtring() + "Aviation altitude:" + this.flightAltitude + " Wingspan length:" + this.wingspanLength;
