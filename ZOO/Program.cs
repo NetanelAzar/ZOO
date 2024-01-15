@@ -11,7 +11,7 @@ namespace ZOO
 			Animal c1 = new Animal("lion", 3, true, 5000);
 
 
-
+			 
 
 
 		}
