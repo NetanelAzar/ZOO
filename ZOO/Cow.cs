@@ -12,8 +12,8 @@ namespace ZOO
 
 
 		         ///constructor
-		public Cow(int caloriesInMilk, int pregnancyMonths, int NumberOfLitters)
-			: base(caloriesInMilk, pregnancyMonths)
+		public Cow(string name, int age, bool isSuperPredator, int caloriesPerMeal, int caloriesInMilk, int pregnancyMonths, int NumberOfLitters)
+			: base(name, age, isSuperPredator, caloriesPerMeal, caloriesInMilk, pregnancyMonths)
 		{
 			this.NumberOfLitters = NumberOfLitters;
 		}

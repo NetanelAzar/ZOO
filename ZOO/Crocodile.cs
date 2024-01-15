@@ -10,8 +10,8 @@ namespace ZOO
 
 
 
-		public Crocodile(int taillength, bool DentalCare)
-			: base(taillength)
+		public Crocodile(string name, int age, bool isSuperPredator, int caloriesPerMeal, int taillength, bool DentalCare)
+			: base(name, age, isSuperPredator, caloriesPerMeal, taillength)
 		{
 			this.DentalCare = DentalCare;
 		}

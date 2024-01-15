@@ -11,8 +11,8 @@ namespace ZOO
 
 
 
-		public Hipo(int caloriesInMilk, int pregnancyMonths, int fatPercentage)
-			: base(caloriesInMilk, pregnancyMonths)
+		public Hipo(string name, int age, bool isSuperPredator, int caloriesPerMeal, int caloriesInMilk, int pregnancyMonths, int fatPercentage)
+			: base(name, age, isSuperPredator, caloriesPerMeal, caloriesInMilk, pregnancyMonths)
 		{
 			this.fatPercentage = fatPercentage;
 		

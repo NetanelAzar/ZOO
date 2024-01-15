@@ -11,7 +11,7 @@ namespace ZOO
 
 
 
-		public Reptilel(string name, int age, bool isSuperPredator, int caloriesPerMeal, int flightAltitude, int wingspanLength)
+		public Bird(string name, int age, bool isSuperPredator, int caloriesPerMeal, int flightAltitude, int wingspanLength)
 			: base(name, age, isSuperPredator, caloriesPerMeal)
 		{
 			this.flightAltitude = flightAltitude;

@@ -10,8 +10,8 @@ namespace ZOO
 
 
 
-		public Snake(int taillength, bool poisonous)
-			: base(taillength)
+		public Snake(string name, int age, bool isSuperPredator, int caloriesPerMeal, int taillength, bool poisonous)
+			: base(name, age, isSuperPredator, caloriesPerMeal, taillength)
 		{
 			this.poisonous = poisonous;
 		}

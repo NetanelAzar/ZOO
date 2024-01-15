@@ -13,7 +13,7 @@ namespace ZOO
 
 
         public Mammal(string name, int age, bool isSuperPredator, int caloriesPerMeal, int caloriesInMilk, int pregnancyMonths)
-            : base(name,age,isSuperPredator,caloriesPerMeal)///מתוך Animal
+            : base(name,age,isSuperPredator,caloriesPerMeal)///שולחים לבנאי של האבא
         {
             this.caloriesInMilk = caloriesInMilk;
             this.pregnancyMonths = pregnancyMonths;
