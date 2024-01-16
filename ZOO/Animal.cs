@@ -78,7 +78,7 @@ namespace ZOO
 
 
 
-		public virtual Eat()///כדי שהיורשים יוכלו לבצע OVERRIDE ולדרוס אותה
+		public virtual int Eat()///כדי שהיורשים יוכלו לבצע OVERRIDE ולדרוס אותה
 		{
 			return this.caloriesPerMeal * 3;
 		}

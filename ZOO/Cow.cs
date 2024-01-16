@@ -34,6 +34,13 @@ namespace ZOO
 
 
 
+
+		public override int Eat()
+		{
+			return (int)(Math.Round(base.Eat() * 0.25));
+		}
+
+
 		public override string ToSrtring()
 		{
 			return base.ToSrtring() + "Number of litters:" + this.NumberOfLitters ;

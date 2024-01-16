@@ -46,7 +46,7 @@ namespace ZOO
 
 
 
-		public override Eat()
+		public override int Eat()
 		{
 			return this.caloriesPerMeal * 2;
 		}

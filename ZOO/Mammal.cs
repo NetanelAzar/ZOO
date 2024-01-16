@@ -52,7 +52,10 @@ namespace ZOO
 
 		}
 
-
+        public override int Eat()
+        {
+            return base.Eat() + this.caloriesInMilk;
+        }
 
 
 
