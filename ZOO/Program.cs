@@ -11,6 +11,14 @@ namespace ZOO
 			Animal c1 = new Animal("lion", 3, true, 5000);
 
 
+
+
+
+
+
+
+
+
 		    static int TotaleCalories(Animal[] animels)
 			{
 				int sum = 0;
