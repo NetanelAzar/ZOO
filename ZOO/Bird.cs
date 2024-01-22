@@ -1,4 +1,7 @@
 ﻿using System;
+using System.IO;
+using System.Threading.Tasks;
+using System.Threading;
 
 namespace ZOO
 {
@@ -52,11 +55,29 @@ namespace ZOO
 		}
 
 
-		public override string ToSrtring()
+
+		public void Sing()
 		{
-			return base.ToSrtring() + "Aviation altitude:" + this.flightAltitude + " Wingspan length:" + this.wingspanLength;
+			Console.Beep();
+			Thread.Sleep(5);
+			Console.Beep();
+			Thread.Sleep(5);
+			Console.Beep();
+			Thread.Sleep(100);
+			Console.Beep();
+			Thread.Sleep(5);
+			Console.Beep();
+			Thread.Sleep(5);
 		}
 
+
+
+		public void Dance()
+		{
+			Console.WriteLine("Dancingg !!");
+		}
+
+	
 
 	}
 }

@@ -34,12 +34,11 @@ namespace ZOO
 
 
 
-		public override string ToSrtring()
+
+		public override int Eat()
 		{
-			return base.ToSrtring() + "The number of fat percentages:" + this.fatPercentage;
+			return base.Eat() * 9;
 		}
-
-
 
 
 

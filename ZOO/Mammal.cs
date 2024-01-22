@@ -61,7 +61,7 @@ namespace ZOO
 
         public override string ToString()
         {
-            return base.ToString() + " calories in milk:" + this.caloriesInMilk + " Pregnacy period:" + this.pregnancyMonths + " months";
+            return " calories in milk:" + this.caloriesInMilk + " Pregnacy period:" + this.pregnancyMonths + " months";
         }
 
 

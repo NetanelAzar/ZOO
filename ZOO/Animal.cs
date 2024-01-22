@@ -72,7 +72,7 @@ namespace ZOO
 
 	 public void SetcaloriesPerMeael(int caloriesl)
 	 {
-			this.caloriesPerMeal = caloriesPerMeal;
+			this.caloriesPerMeal = caloriesl;
 	 }
 
 

@@ -29,7 +29,7 @@ namespace ZOO
 		        ///פקודות SET
 		public int SetNumberOfLitters(int num)
 		{
-			this.NumberOfLitters = num;
+			return this.NumberOfLitters = num;
 		}
 
 
@@ -41,10 +41,7 @@ namespace ZOO
 		}
 
 
-		public override string ToSrtring()
-		{
-			return base.ToSrtring() + "Number of litters:" + this.NumberOfLitters ;
-		}
+	
 
 
 

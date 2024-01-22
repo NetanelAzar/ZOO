@@ -8,10 +8,10 @@ namespace ZOO
 		protected int taillength;
 
 
-		public Reptilel(string name, int age, bool isSuperPredator, int caloriesPerMeal, int taillength)
+		public Reptile(string name, int age, bool isSuperPredator, int caloriesPerMeal, int Taillength)
 			: base(name,age,isSuperPredator,caloriesPerMeal)
 		{
-			this.taillength = taillength;
+			this.taillength = Taillength;
 		}
 
 
@@ -37,7 +37,7 @@ namespace ZOO
 
 		public override string ToString()
 		{
-			return base.ToString() + " the length of the tail:" + this.taillength;
+			return  " the length of the tail:" + this.taillength;
 		}
 
 

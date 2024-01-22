@@ -29,6 +29,10 @@ namespace ZOO
 			this.poisonous = poisonous;
 		}
 
+		public void Dance()
+		{
+			Console.WriteLine("Dancingg !!");
+		}
 
 
 
