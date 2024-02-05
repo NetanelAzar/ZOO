@@ -14,7 +14,7 @@ namespace ZOO
 
 
 
-
+			Console.WriteLine(new Park());
 
 
 
@@ -80,20 +80,24 @@ namespace ZOO
 
 
 
-			static void FatHipo(Animal[] animals)
+			static string FatHipo(Animal[] animals)
 			{
 
-				int maxFat =0;
+				Hipo maxFat =null;
 
 				for(int i =0; i< animals.Length; i++)
 				{
 
 					if (animals[i] is Hipo)
 					{
-						Console.WriteLine(animals[i].GetName() + " fat Percentage");
-						((Hipo)animals[i]).GetfatPercentage();
+						if (maxFat == null || ((Hipo)animals[i]).GetfatPercentage() > maxFat.GetfatPercentage())
+						{
+							maxFat = (Hipo)animals[i];
+						}
+						
 					}
 				}
+				return maxFat == null ? "" : maxFat.GetName();
 			}
 
 
