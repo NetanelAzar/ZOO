@@ -2,14 +2,10 @@
 
 namespace ZOO
 {
-
-
 	internal class Park
 	{
 
-
 		public const int MAX_ANIMAL = 1000;
-
 		private Animal[] animals;
 		private int counter;
 
@@ -18,7 +14,6 @@ namespace ZOO
 			this.animals = new Animal[MAX_ANIMAL];
 			this.counter = 0;
 		}
-
 
 		public void AddAnimal(Animal animal)
 		{
@@ -29,8 +24,6 @@ namespace ZOO
 			}
 		}
 
-
-
 		public Node<Animal> GetElderPredators()
 		{
 			Node<Animal> list = null;
@@ -40,13 +33,7 @@ namespace ZOO
 					list = new Node<Animal>(this.animals[i], list);
 			}
 			return list;
-
 		}
-
-
-
-
-
 
 		public int CountSuperPredators()
 		{
@@ -58,10 +45,5 @@ namespace ZOO
 			}
 			return count;
 		}
-
-
-
-
-
 	}
 }
